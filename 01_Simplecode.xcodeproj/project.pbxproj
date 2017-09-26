@@ -14,6 +14,7 @@
 		F51C42031F79EEFC00711744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51C42011F79EEFC00711744 /* LaunchScreen.storyboard */; };
 		F51C420E1F79EEFC00711744 /* _1_SimplecodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C420D1F79EEFC00711744 /* _1_SimplecodeTests.swift */; };
 		F51C42191F79EEFC00711744 /* _1_SimplecodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C42181F79EEFC00711744 /* _1_SimplecodeUITests.swift */; };
+		F51C42281F79EF4A00711744 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51C42271F79EF4A00711744 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F51C42141F79EEFC00711744 /* 01_SimplecodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 01_SimplecodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51C42181F79EEFC00711744 /* _1_SimplecodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_SimplecodeUITests.swift; sourceTree = "<group>"; };
 		F51C421A1F79EEFC00711744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51C42271F79EF4A00711744 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51C42281F79EF4A00711744 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				F51C420C1F79EEFC00711744 /* 01_SimplecodeTests */,
 				F51C42171F79EEFC00711744 /* 01_SimplecodeUITests */,
 				F51C41F61F79EEFC00711744 /* Products */,
+				F51C42261F79EF4A00711744 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				F51C421A1F79EEFC00711744 /* Info.plist */,
 			);
 			path = 01_SimplecodeUITests;
+			sourceTree = "<group>";
+		};
+		F51C42261F79EF4A00711744 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F51C42271F79EF4A00711744 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
